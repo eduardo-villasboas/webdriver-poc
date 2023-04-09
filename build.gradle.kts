@@ -11,7 +11,10 @@ repositories {
 }
 
 dependencies {
-
+    testImplementation("org.seleniumhq.selenium:selenium-java:4.8.1")
+    // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
+    implementation("io.github.bonigarcia:webdrivermanager:5.3.2")
+    testImplementation("org.assertj:assertj-core:3.24.2")
     testImplementation(kotlin("test"))
 }
 
